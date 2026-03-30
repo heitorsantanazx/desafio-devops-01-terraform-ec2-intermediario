@@ -1,10 +1,10 @@
-# Security Group
 resource "aws_security_group" "web_sg" {
-  name        = "desafio-devops-01-sg"
+  name        = var.sg_name
   description = "Security Group para o webserver"
 
   tags = {
-    Name = "desafio-devops-01-sg"
+    Name        = var.sg_name
+    Environment = var.environment
   }
 }
 
@@ -31,18 +31,4 @@ resource "aws_vpc_security_group_egress_rule" "egress" {
   cidr_ipv4         = "0.0.0.0/0"
   ip_protocol       = "-1"
   description       = "Permitir todo o trafego de saida"
-}
-
-# Instância EC2
-resource "aws_instance" "web" {
-  ami           = var.ami_id
-  instance_type = var.instance_type
-
-  vpc_security_group_ids = [aws_security_group.web_sg.id]
-
-  user_data = file("${path.module}/user_data.sh")
-
-  tags = {
-    Name = "desafio-devops-01-ec2"
-  }
 }
