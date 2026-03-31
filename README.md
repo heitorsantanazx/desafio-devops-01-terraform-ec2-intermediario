@@ -22,7 +22,7 @@ Prepare-se para elevar o nível da sua infraestrutura como código! ⚡
 Tem dúvidas sobre o desafio ou quer compartilhar sua solução?  
 Entre no nosso Discord oficial:
 
-➡️ **https://discord.gg/RgcC7YytVZ**
+[![Discord](https://img.shields.io/badge/Discord-Desafios%20DevOps-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/RgcC7YytVZ)
 
 Lá você encontrará fóruns por desafio, ajuda da comunidade e novidades sobre próximos desafios DevOps.
 
