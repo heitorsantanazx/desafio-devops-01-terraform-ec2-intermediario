@@ -17,7 +17,7 @@ Este repositório segue o mesmo formato do nível iniciante:
 
 Prepare-se para elevar o nível da sua infraestrutura como código! ⚡
 
-## 🤝 Participe da Comunidade 
+## 🤝 Participe da Comunidade
 
 Tem dúvidas sobre o desafio ou quer compartilhar sua solução?  
 Entre no nosso Discord oficial:
