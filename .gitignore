@@ -12,16 +12,7 @@ terraform.tfstate.*
 terraform.tfplan
 *.tfplan
 
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# *.tfvars    TF VARS FOI COMENTADO PARA QUE POSSA SER UTILIZADO COMO EXEMPLO NA SOLUÇÃO, MAS GERALMENTE DEVE SER IGNORADO
-*.tfvars.json
-
-crash.log
-crash.*.log
+*.tfvars
 
 # -----------------------------
 # Credenciais e chaves privadas
@@ -35,21 +26,3 @@ crash.*.log
 .aws/
 aws_credentials
 credentials
-
-# -----------------------------
-# Editores e sistemas operacionais
-# -----------------------------
-
-# VSCode
-.vscode/
-
-# MacOS
-.DS_Store
-
-# Windows
-Thumbs.db
-desktop.ini
-
-# Linux
-*.swp
-*.swo
