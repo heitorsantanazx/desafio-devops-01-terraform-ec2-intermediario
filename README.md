@@ -1,4 +1,4 @@
-# Desafio DevOps #2 - Terraform EC2
+# aws-infrastructure-as-code-v2
 
 Este projeto foi desenvolvido como solução para o desafio proposto no repositório original:
 
@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como solução para o desafio proposto no reposit�
 
 ## Objetivo
 
-Desta vez eu reutilizei a estrutura do meu primeiro projeto (Desafio DevOps #1), mas fazendo o uso de "module", como forma de me acostumar a boas práticas de organização e melhorar o meu primeiro projeto.
+Desta vez eu reutilizei a estrutura do meu primeiro projeto (aws-infrastructure-as-code-v1), mas fazendo o uso de "module", como forma de me acostumar a boas práticas de organização e melhorar o meu primeiro projeto.
 
 ---
 
@@ -32,3 +32,4 @@ terraform apply / terraform apply -auto-approve
 
 ---
 
+## 🚧 Em construção 🚧
